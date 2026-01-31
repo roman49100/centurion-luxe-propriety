@@ -1,5 +1,4 @@
 {
-  "name": "centurion-luxe-property",
   "build": {
     "command": "npm run build"
   }
