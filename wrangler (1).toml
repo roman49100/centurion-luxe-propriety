@@ -10,3 +10,6 @@ watch_dir = "src"
 
 [build.upload]
 format = "service-worker"
+
+[assets]
+directory = "./dist"
