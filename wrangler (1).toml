@@ -1,15 +1,8 @@
 # Configuration Cloudflare Pages
 name = "centurion-luxe-property"
 compatibility_date = "2024-01-01"
-main = "main.tsx"
+pages_build_output_dir = "dist"
 
 [build]
 command = "npm run build"
 cwd = "."
-watch_dir = "src"
-
-[build.upload]
-format = "service-worker"
-
-[assets]
-directory = "./dist"
