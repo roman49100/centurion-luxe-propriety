@@ -1,6 +1,7 @@
 # Configuration Cloudflare Pages
 name = "centurion-luxe-property"
 compatibility_date = "2024-01-01"
+main = "main.tsx"
 
 [build]
 command = "npm run build"
