@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { useNavigate } from 'react-router';
 import { motion } from 'motion/react';
 import { Lock, Eye, EyeOff, AlertCircle } from 'lucide-react';
-import { projectId, publicAnonKey } from '/utils/supabase/info';
+import { projectId, publicAnonKey } from '@/supabase/info';
 
 export default function Login() {
   const [password, setPassword] = useState('');

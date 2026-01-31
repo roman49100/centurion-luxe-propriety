@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 import { Mail, Phone, MapPin, Calendar, RefreshCw, AlertCircle, Send, X, CheckCircle } from 'lucide-react';
-import { projectId, publicAnonKey } from '/utils/supabase/info';
+import { projectId, publicAnonKey } from '@/supabase/info';
 
 interface ContactRequest {
   id: string;

@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { motion } from 'motion/react';
 import { Mail, Phone, MapPin, Send, CheckCircle } from 'lucide-react';
-import { projectId, publicAnonKey } from '/utils/supabase/info';
+import { projectId, publicAnonKey } from '@/supabase/info';
 import { Link } from 'react-router';
 
 export function Contact() {
